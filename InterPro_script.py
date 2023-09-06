@@ -58,75 +58,63 @@ def parse_column(value, selector):
     return parse_locations(value)
   return str(value)
 
-
-def get_page_answer(url, context):
-  attepmt_number = 1
-  while True:
-    try:
-        req = request.Request(url, headers={"Accept": "application/json"})
-        res = request.urlopen(req, context=context)
-        
-        if res.status != 200:
-          return res.status, None
-        return res.status, json.loads(res.read().decode())
-    except HTTPError as error:
-      if error.code == 408:
-        return error.code, None
-      if attepmt_number < 3:
-        time.sleep(5)
-        continue
-      raise HTTPError('url', code=error.code, msg='errror during get page')
-       
-def output_list(domain: str):
+class InterProConnect:
+  def _get_page_answer(self, url):
+    attepmt_number = 1
+    while True:
+      try:
+          req = request.Request(url, headers={"Accept": "application/json"})
+          res = request.urlopen(req, context=self.context)
+          if res.status != 200:
+            raise HTTPError('url', code=error.code, msg='errror during get page')
+          return res.status, json.loads(res.read().decode())
+      except HTTPError as error:
+        if error.code == 204:
+          raise HTTPError(self.url, error.code, msg="no data")
+        if attepmt_number < 3:
+          time.sleep(5)
+          continue
+        raise HTTPError('url', code=error.code, msg='errror during get page')
   
-  #разбить на подключение и вытаскивание данных
-  #добавить входной аргумент -- id домена, чьи белки ищем
-  #рассмотреть возможность использования yeld
-  
-  #disable SSL verification to avoid config issues
-  context = ssl._create_unverified_context()
-
-  next = BASE_URL + domain +'/taxonomy/uniprot/9606/?page_size=200'
-  last_page = False
-
-  
-  attempts = 0
-
-  
-  while next:
+  def _build_proteins_list(self):
     proteins_lst:list[Protein] = []
-    code, proteins = get_page_answer(next,context)
-    
-    if proteins:
-      next = proteins["next"]
-    
-    elif code == 204:
-        #no data so leave loop
-        break
-    else:
-      time.sleep(61)
-      continue
-
-    for item in proteins['results']:
-      
-      proteins_lst.append(
-          Protein(
-            parse_column(item["metadata"]["accession"], 'metadata.accession'),
-            parse_column(item["metadata"]["source_database"], 'metadata.source_database'),
-            parse_column(item["metadata"]["name"], 'metadata.name'),
-            parse_column(item["metadata"]["source_organism"]["taxId"], 'metadata.source_organism.taxId'),
-            parse_column(item["metadata"]["source_organism"]["scientificName"], 'metadata.source_organism.scientificName'),
-            parse_column(item["metadata"]["length"], 'metadata.length'),
-            parse_column(item["entries"][0]["accession"], 'entries[0].accession'),
-            parse_column(item["entries"], 'entries[0].entry_protein_locations')
+    for item in self.proteins_answer["results"]:
+      proteins_lst.append(Protein(
+        parse_column(item["metadata"]["accession"], 'metadata.accession'),
+        parse_column(item["metadata"]["source_database"], 'metadata.source_database'),
+        parse_column(item["metadata"]["name"], 'metadata.name'),
+        parse_column(item["metadata"]["source_organism"]["taxId"], 'metadata.source_organism.taxId'),
+        parse_column(item["metadata"]["source_organism"]["scientificName"], 'metadata.source_organism.scientificName'),
+        parse_column(item["metadata"]["length"], 'metadata.length'),
+        parse_column(item["entries"][0]["accession"], 'entries[0].accession'),
+        parse_column(item["entries"], 'entries[0].entry_protein_locations')
       ))
+    return proteins_lst
+  
+  def __init__(self, domain_name) -> None:
+    self.context = ssl._create_unverified_context()
+    self.domain_name = domain_name
+    self.url = BASE_URL + self.domain_name +'/taxonomy/uniprot/9606/?page_size=200'
+    try:
+      code, self.proteins_answer  = self._get_page_answer(self.url)
+      self.proteins_count = self.proteins_answer["count"] 
+      self.next_url = self.proteins_answer["next"]
+    except:
+      ...
 
-    yield proteins_lst
-    
-    # Don't overload the server, give it time before asking for more
-    if next:
-      sleep(1)
+  def output_list(self):
+    yield self._build_proteins_list()
+    sleep(1)
+    while self.next_url:
+      code, self.proteins_answer = self._get_page_answer(self.next_url)
+      self.next_url = self.proteins_answer["next"]
+      yield self._build_proteins_list()
+      # Don't overload the server, give it time before asking for more
+      if self.next_url:
+        sleep(1)
 
 if __name__ == "__main__":
-  for lst in output_list():
+  page_connect = InterProConnect('PF00017')
+  for lst in page_connect.output_list():
     print(lst)
+    

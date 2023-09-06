@@ -2,16 +2,40 @@
 import sys
 import os
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QGridLayout, QLineEdit, QWidget, QFileDialog, QLabel, QComboBox
-from protein_script import write_to_file
-
+from protein_script import UnionAPI
+from PyQt6.QtCore import QObject, QThread, pyqtSignal
 
 #TODO LIST
 #сделать возможность выбора папки++
 #сделать возможность выбора расширения файла
-#законтачить метод rkfccf MainWindow с методом записи в файл
-#os.path.abspath vs os.getcwd()
+
+
+class DownloadHandler(QThread):
+    def __init__(self, api: UnionAPI, file_name) -> None:
+        super().__init__()
+        self.api = api
+        self.file_name = file_name
+
+    def run(self):
+        self.api.write_to_file(self.file_name)
+
+class DownloadInfoHandler(QThread):
+    persent_signal = pyqtSignal(float)
+    def __init__(self, api: UnionAPI) -> None:
+        super().__init__()
+        self.api = api
+
+    def run(self):
+        while self.api.is_starting:
+            self.persent_signal.emit(self.api.proteins_downloaded_persent)
 
 class MainWindow(QMainWindow):
+    def _init_handlers(self, domain_name, file_name):
+        self.api = UnionAPI(domain_name)
+        self.download_handler = DownloadHandler(self.api, file_name)
+        self.download_progress_handler = DownloadInfoHandler(self.api)
+        self.download_progress_handler.persent_signal.connect(self.change_progres)
+
     def _init_input_fields(self):
         self.file_name_input_line = QLineEdit()
         self.domain_name_line_edit = QLineEdit()
@@ -22,7 +46,7 @@ class MainWindow(QMainWindow):
         self.choice_directory_btn = QPushButton("choice directory")
         self.complite_btn = QPushButton("generate table")
         self.choice_directory_btn.clicked.connect(self.set_dir_name)
-        self.complite_btn.clicked.connect(self.print_fields_values)
+        self.complite_btn.clicked.connect(self.download_table)
 
     def _init_labels(self):
         self.dir_label = QLabel(text=f'dir name: {self.dir_name}')
@@ -40,7 +64,10 @@ class MainWindow(QMainWindow):
         self.ext_selector.addItems(['.tsv'])
 
     def __init__(self) -> None:
+
         super().__init__()
+        self.api = None
+        
         self.setWindowTitle("Proteins info getter")
 
         self._init_states()
@@ -63,20 +90,28 @@ class MainWindow(QMainWindow):
         self.main_container.setLayout(self.main_layout)
 
         self.setCentralWidget(self.main_container)
+    
+    def change_progres(self, progress: float):
+        self.download_state_label.setText(f'state: downloaded on {self.download_handler.api.proteins_downloaded_persent}%')
 
-    def print_fields_values(self):
+    def download_table(self):
+        
         file_ext = self.ext_selector.itemText(self.ext_selector.currentIndex())
         full_path = os.path.join(self.dir_name, self.file_name_input_line.text()+file_ext)
+        
         domain_name = self.domain_name_line_edit.text()
-        self.download_state_label.setText('download in process')
-        res = write_to_file(full_path, domain_name)
-        if res == True:
-            self.download_state_label.setText('download is complite')
-        else:
-            self.download_state_label.setText('ERROR, maybe domain name is wrong')
+        #создание api и потоков
+        if self.api is None or (not self.api.is_starting):
+            self._init_handlers(domain_name, full_path)
+        
+        if not self.api.is_starting:        
+            self.download_handler.start()
+            self.download_progress_handler.start()
+
     def set_dir_name(self):
         self.dir_name = QFileDialog.getExistingDirectory(self, caption='choice a directory')
         self.dir_label.setText(f'dir name: {self.dir_name}')
+
 app = QApplication(sys.argv)
 
 
