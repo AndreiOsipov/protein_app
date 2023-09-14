@@ -1,5 +1,5 @@
 # standard library modules
-import sys, errno, re, json, ssl
+import json, ssl
 from urllib import request
 from urllib.error import HTTPError
 from time import sleep
