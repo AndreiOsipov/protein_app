@@ -13,6 +13,9 @@ class GenesGetter:
         self.logger.addHandler(self.logger_handler)
     
     def get_genes_list_by_acces_id(self, acces_id:str):
+        '''
+        - выдает список генов в которых встречается данный протеин
+        '''
         url = URL_BEGIN + acces_id + '&fields=gene_names&format=json'
         res = requests.get(url)
         

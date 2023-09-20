@@ -3,8 +3,8 @@ import os
 from dataclasses import dataclass
 
 from .uniprot_genes_script import GenesGetter
-from .elm_ids_script import get_elm_table
-from .elm_domains_script import get_all_domains
+from .elm_ids_script import get_elm_ids_by_squence_id
+from .elm_domains_script import DomainsGetter
 from .InterPro_script import Protein, InterProConnect
 
 
@@ -75,16 +75,17 @@ class ProteinsSquenceDownloader:
     def download_proteins_sequence_data(self, sequence_id):
         root_dir = os.path.join(self.folder_path, sequence_id)
         self._build_dir_if_not_exist(root_dir)
-        elm_head, elm_table = get_elm_table(sequence_id)
+        
+        elm_ids = get_elm_ids_by_squence_id(sequence_id)
 
-        domains = get_all_domains()
+        domain_getter = DomainsGetter()
+        domains = domain_getter.get_all_domains()
         processed_proteins_set = set()
-        for row in elm_table:
-            elm_name = row[0]
-            elm_dir = os.path.join(root_dir, elm_name)
+        for elm_id in elm_ids:
+            elm_dir = os.path.join(root_dir, elm_id)
             self._build_dir_if_not_exist(elm_dir)
-            if elm_name not in processed_proteins_set and elm_name in domains.keys():
-                self._download_tables(domains, elm_name, elm_dir)
+            if elm_id not in processed_proteins_set and elm_id in domains.keys():
+                self._download_tables(domains, elm_id, elm_dir)
             processed_proteins_set.add(elm_name)
             print(processed_proteins_set)
             
