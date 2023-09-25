@@ -1,0 +1,21 @@
+accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
+A0A024R3C0	Caspase 5, apoptosis-related cysteine peptidase, isoform CRA_a	Homo sapiens	unreviewed	9606	418	176..413	CASP5
+A0A024R3Y3	CASP8 and FADD-like apoptosis regulator, isoform CRA_d	Homo sapiens	unreviewed	9606	445	227..440	CFLAR
+A0A024R3Y4	CASP8 and FADD-like apoptosis regulator, isoform CRA_c	Homo sapiens	unreviewed	9606	480	262..475	CFLAR
+A0A024R3Z8	Caspase-8	Homo sapiens	unreviewed	9606	464	218..459	
+A0A0A0MRL7	Caspase 7	Homo sapiens	unreviewed	9606	388	153..385	CASP7
+A0A0S2Z3G5	Caspase 10 apoptosis-related cysteine peptidase isoform 3	Homo sapiens	unreviewed	9606	479	240..468	CASP10
+A0A0S2Z3H1	Caspase 2 apoptosis-related cysteine peptidase isoform 1	Homo sapiens	unreviewed	9606	452	199..444	CASP2
+A0A0S2Z3Z5	Caspase 10 apoptosis-related cysteine peptidase isoform 1	Homo sapiens	unreviewed	9606	522	283..511	CASP10
+A0A336TY74	CASP8 and FADD-like apoptosis regulator, isoform CRA_a	Homo sapiens	unreviewed	9606	462	262..435	CFLAR
+A0A3B3IS32	MALT1 paracaspase	Homo sapiens	unreviewed	9606	468	343..466	MALT1
+A0A5F9ZHZ6	Caspase 7	Homo sapiens	unreviewed	9606	302	67..299	CASP7
+A0A7L9VVH0	Caspase family p20 domain-containing protein	Homo sapiens	unreviewed	9606	78	1..78	
+A0A8Q3SI00	Caspase-1	Homo sapiens	unreviewed	9606	336	123..335	CASP1
+A0A8Q3SI67	Caspase-1	Homo sapiens	unreviewed	9606	375	162..374	CASP1
+A0A8Q3SID9	Caspase-8	Homo sapiens	unreviewed	9606	523	277..518	CASP8
+A0A8Q3SIY2	Caspase-1	Homo sapiens	unreviewed	9606	365	123..360	CASP1
+A0A8Q3WKY8	Caspase 8	Homo sapiens	unreviewed	9606	435	218..421	CASP8
+A8K249	cDNA FLJ77899, highly similar to Homo sapiens caspase 1, apoptosis-related cysteine protease(interleukin 1, beta, convertase) (CASP1), transcript variantalpha, mRNA	Homo sapiens	unreviewed	9606	404	162..399	
+A8K257	cDNA FLJ75298, highly similar to Homo sapiens caspase 1, apoptosis-related cysteine protease(interleukin 1, beta, convertase) (CASP1), transcript variant beta,mRNA	Homo sapiens	unreviewed	9606	383	141..378	
+A8K5S1	cDNA FLJ78650, highly similar to Homo sapiens mucosa associated lymphoid tissue lymphoma translocation gene 1 (MALT1), transcript variant 1, mRNA	Homo sapiens	unreviewed	9606	824	343..556	

@@ -1,0 +1,17 @@
+accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
+A0A087WVQ6	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1679	19..56,153..191,202..238,260..292,300..334	CLTC
+A0A087WX41	Clathrin heavy chain linker core motif domain-containing protein	Homo sapiens	unreviewed	9606	1260	19..55,150..187,198..234,256..288,296..330	CLTCL1
+A0A8V8TQ14	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1680	19..56,154..192,203..239,261..293,301..335	CLTC
+A0A8V8TQ18	Clathrin heavy chain linker core motif domain-containing protein	Homo sapiens	unreviewed	9606	1516	2..29,51..83,91..125	CLTC
+A0A8V8TQK1	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1651	118..156,167..203,225..257,265..299	CLTC
+A0A8V8TQK3	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1579	19..56,149..187,198..234	CLTC
+A0A8V8TR47	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1679	19..56,149..187,198..234,256..288,296..330	CLTC
+A0A8V8TRE8	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1617	19..56,149..187,198..234	CLTC
+A0A8V8TRF0	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1676	19..56,150..188,199..235,257..289,297..331	CLTC
+F5H5N6	Clathrin heavy chain like 1	Homo sapiens	unreviewed	9606	169	19..55	CLTCL1
+J3KS13	Clathrin heavy chain	Homo sapiens	unreviewed	9606	612	19..56	CLTC
+J3KTN1	Clathrin heavy chain	Homo sapiens	unreviewed	9606	24	2..23	CLTC
+J3QL20	Clathrin heavy chain	Homo sapiens	unreviewed	9606	97	19..56	CLTC
+K7EJJ5	Clathrin heavy chain	Homo sapiens	unreviewed	9606	1682	19..56,149..187,198..234,256..288,296..330	CLTC
+P53675	Clathrin heavy chain 2	Homo sapiens	reviewed	9606	1640	19..55,150..187,198..234,256..288,296..330	CLTCL1
+Q00610	Clathrin heavy chain 1	Homo sapiens	reviewed	9606	1675	19..56,149..187,198..234,256..288,296..330	CLTC

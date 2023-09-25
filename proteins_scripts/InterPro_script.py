@@ -1,11 +1,13 @@
 # standard library modules
 import json, ssl
-from urllib import request
-from urllib.error import HTTPError
+# from urllib import request
+# from urllib.error import HTTPError
+import requests
 from time import sleep
 import time
 from dataclasses import dataclass
 BASE_URL = "https://www.ebi.ac.uk:443/interpro/api/protein/UniProt/entry/pfam/"
+NO_PFAM_BASE_URL = 'https://www.ebi.ac.uk:443/interpro/api/protein/UniProt/entry/InterPro/'
 
 @dataclass
 class Protein:
@@ -18,103 +20,123 @@ class Protein:
   entries_accession: str
   entry_protein_locations: str
 
-def parse_items(items):
-  if type(items)==list:
-    return ",".join(items)
-  return ""
-
-def parse_member_databases(dbs):
-  if type(dbs)==dict:
-    return ";".join([f"{db}:{','.join(dbs[db])}" for db in dbs.keys()])
-  return ""
-
-def parse_go_terms(gos):
-  if type(gos)==list:
-    return ",".join([go["identifier"] for go in gos])
-  return ""
-
-def parse_locations(entries):
-  if type(entries)==list:
-    
-    return ",".join([",".join(
-      [",".join([f"{fragment['start']}..{fragment['end']}" for fragment in location["fragments"]])
-       for location in entry['entry_protein_locations']])
-      for entry in entries])
-  return ""
-
-def parse_group_column(values, selector):
-  return ",".join([parse_column(value, selector) for value in values])
-
-def parse_column(value, selector):
-  if value is None:
+class DomainDictParser:
+  def parse_items(self, items):
+    if type(items)==list:
+      return ",".join(items)
     return ""
-  elif "member_databases" in selector:
-    return parse_member_databases(value)
-  elif "go_terms" in selector: 
-    return parse_go_terms(value)
-  elif "children" in selector: 
-    return parse_items(value)
-  elif "locations" in selector:
-    return parse_locations(value)
-  return str(value)
+
+  def parse_member_databases(self, dbs):
+    if type(dbs)==dict:
+      return ";".join([f"{db}:{','.join(dbs[db])}" for db in dbs.keys()])
+    return ""
+
+  def parse_go_terms(self, gos):
+    if type(gos)==list:
+      return ",".join([go["identifier"] for go in gos])
+    return ""
+
+  def parse_locations(self, entries):
+    if type(entries)==list:
+      
+      return ",".join([",".join(
+        [",".join([f"{fragment['start']}..{fragment['end']}" for fragment in location["fragments"]])
+        for location in entry['entry_protein_locations']])
+        for entry in entries])
+    return ""
+
+  def parse_group_column(self, values, selector):
+    return ",".join([self.parse_column(value, selector) for value in values])
+
+  def parse_column(self, value, selector):
+    if value is None:
+      return ""
+    elif "member_databases" in selector:
+      return self.parse_member_databases(value)
+    elif "go_terms" in selector: 
+      return self.parse_go_terms(value)
+    elif "children" in selector: 
+      return self.parse_items(value)
+    elif "locations" in selector:
+      return self.parse_locations(value)
+    return str(value)
 
 class InterProConnect:
+  '''
+  - представляет собой единицу подключения к сайту InterPro по принципу определенного домайна
+  - для домайна (например PF00017) находит все протеины, которые по нему взаимодействуют
+  '''
+  #TODO логированние методов _get_page_answer, _get_domain_json_answer, _build_proteins_list, output_list
+  #TODO добавить timeout
   def _get_page_answer(self, url):
+    #TODO залогировать и добавить timeout
     attepmt_number = 1
     while True:
+      print(f'url = {url}')
       try:
-          req = request.Request(url, headers={"Accept": "application/json"})
-          res = request.urlopen(req, context=self.context)
-          if res.status != 200:
-            raise HTTPError('url', code=error.code, msg='errror during get page')
-          return res.status, json.loads(res.read().decode())
-      except HTTPError as error:
-        if error.code == 204:
-          raise HTTPError(self.url, error.code, msg="no data")
+          answer = requests.get(url, headers={"Accept": "application/json"})
+          json_answer:dict = answer.json()
+          return answer.status_code, json_answer
+      except:
         if attepmt_number < 3:
           time.sleep(5)
           continue
-        raise HTTPError('url', code=error.code, msg='errror during get page')
-  
+        else:
+          return None, None
+        
+  def _get_domain_json_answer(self, urls):
+      for url in urls:
+        code, domain_info_dict = self._get_page_answer(url)
+        if code == 200:
+          return domain_info_dict
+        
   def _build_proteins_list(self):
     proteins_lst:list[Protein] = []
+    column_parser = DomainDictParser()
     for item in self.proteins_answer["results"]:
       proteins_lst.append(Protein(
-        parse_column(item["metadata"]["accession"], 'metadata.accession'),
-        parse_column(item["metadata"]["source_database"], 'metadata.source_database'),
-        parse_column(item["metadata"]["name"], 'metadata.name'),
-        parse_column(item["metadata"]["source_organism"]["taxId"], 'metadata.source_organism.taxId'),
-        parse_column(item["metadata"]["source_organism"]["scientificName"], 'metadata.source_organism.scientificName'),
-        parse_column(item["metadata"]["length"], 'metadata.length'),
-        parse_column(item["entries"][0]["accession"], 'entries[0].accession'),
-        parse_column(item["entries"], 'entries[0].entry_protein_locations')
+        column_parser.parse_column(item["metadata"]["accession"], 'metadata.accession'),
+        column_parser.parse_column(item["metadata"]["source_database"], 'metadata.source_database'),
+        column_parser.parse_column(item["metadata"]["name"], 'metadata.name'),
+        column_parser.parse_column(item["metadata"]["source_organism"]["taxId"], 'metadata.source_organism.taxId'),
+        column_parser.parse_column(item["metadata"]["source_organism"]["scientificName"], 'metadata.source_organism.scientificName'),
+        column_parser.parse_column(item["metadata"]["length"], 'metadata.length'),
+        column_parser.parse_column(item["entries"][0]["accession"], 'entries[0].accession'),
+        column_parser.parse_column(item["entries"], 'entries[0].entry_protein_locations')
       ))
     return proteins_lst
   
-  def __init__(self, domain_name) -> None:
+  def __init__(self, domain_name: str, test = False) -> None:
+    #TODO залогировать exception
+    self.test = test
     self.context = ssl._create_unverified_context()
     self.domain_name = domain_name
-    self.url = BASE_URL + self.domain_name +'/taxonomy/uniprot/9606/?page_size=200'
+    self.url = BASE_URL + self.domain_name +'/taxonomy/uniprot/9606/?page_size=20'
+    self.no_pfam_url = NO_PFAM_BASE_URL + self.domain_name +'/taxonomy/uniprot/9606/?page_size=20'
+    
     try:
-      code, self.proteins_answer  = self._get_page_answer(self.url)
+      self.proteins_answer = self._get_domain_json_answer([self.url, self.no_pfam_url])
       self.proteins_count = self.proteins_answer["count"] 
       self.next_url = self.proteins_answer["next"]
     except:
-      ...
+      raise Exception(f"wrong domain: {self.domain_name}")
 
   def output_list(self):
+    '''
+    - выдает елдом список протеинов, которые взаимодействубт по определенному домайну
+    '''
     yield self._build_proteins_list()
     sleep(1)
-    while self.next_url:
-      code, self.proteins_answer = self._get_page_answer(self.next_url)
-      self.next_url = self.proteins_answer["next"]
-      yield self._build_proteins_list()
-      # Don't overload the server, give it time before asking for more
-      if self.next_url:
-        sleep(1)
+    if not self.test:
+      while self.next_url:    
+        code, self.proteins_answer = self._get_page_answer(self.next_url)
+        self.next_url = self.proteins_answer["next"]
+        yield self._build_proteins_list()
+        if self.next_url:
+          sleep(1)
 
 if __name__ == "__main__":
-  page_connect = InterProConnect('PF00017')
+  page_connect = InterProConnect('PF00149')
   for lst in page_connect.output_list():
     print(lst)
     

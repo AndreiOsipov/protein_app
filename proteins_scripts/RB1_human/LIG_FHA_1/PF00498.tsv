@@ -1,0 +1,21 @@
+accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
+A0A024R134	FHA domain-containing protein	Homo sapiens	unreviewed	9606	271	172..244	MCRS1
+A0A024R3F4	PH domain-containing protein	Homo sapiens	unreviewed	9606	1319	65..125	PHLDB1
+A0A024R3H6	PH domain-containing protein	Homo sapiens	unreviewed	9606	1377	65..125	PHLDB1
+A0A024R4H4	Kinesin family member 1B, isoform CRA_b	Homo sapiens	unreviewed	9606	1633	374..444	KIF1B
+A0A087WTZ7	Pleckstrin homology like domain family B member 1	Homo sapiens	unreviewed	9606	209	64..117	PHLDB1
+A0A087WWA3	Kinesin family member 1B	Homo sapiens	unreviewed	9606	1797	531..601	KIF1B
+A0A087X0M4	FHA domain-containing protein	Homo sapiens	unreviewed	9606	742	136..212	SLC4A1AP
+A0A087X0R2	FHA domain-containing protein	Homo sapiens	unreviewed	9606	142	55..96	MDC1
+A0A0G2JH60	FHA domain-containing protein	Homo sapiens	unreviewed	9606	345	33..105	TCF19
+A0A0G2JIJ7	FHA domain-containing protein	Homo sapiens	unreviewed	9606	345	33..105	TCF19
+A0A140VK74	Testis secretory sperm-binding protein Li 201a	Homo sapiens	unreviewed	9606	1317	479..544	
+A0A1B0GTU3	Kinesin family member 16B	Homo sapiens	unreviewed	9606	1266	479..544	KIF16B
+A0A1B0GUA8	Kinesin motor domain-containing protein	Homo sapiens	unreviewed	9606	1845	470..534	KIF13A
+A0A1B0GVS8	Kinesin motor domain-containing protein	Homo sapiens	unreviewed	9606	1832	479..544	KIF16B
+A0A1P7ZIN0	L-afadin	Homo sapiens	unreviewed	9606	1822	428..492	
+A0A1U9X8M7	FHA domain-containing protein	Homo sapiens	unreviewed	9606	345	33..105	
+A0A1U9X8N8	FHA domain-containing protein	Homo sapiens	unreviewed	9606	345	33..105	
+A0A1U9XBB2	Mediator of DNA damage checkpoint protein 1	Homo sapiens	unreviewed	9606	2089	55..123	
+A0A1U9XBC0	Mediator of DNA damage checkpoint protein 1	Homo sapiens	unreviewed	9606	2089	55..123	
+A0A1U9XBC1	Mediator of DNA damage checkpoint protein 1	Homo sapiens	unreviewed	9606	2089	55..123	

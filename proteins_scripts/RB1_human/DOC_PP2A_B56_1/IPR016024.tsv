@@ -1,0 +1,21 @@
+accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
+A0A024QZY9	FAM65 N-terminal domain-containing protein	Homo sapiens	unreviewed	9606	1068	940..1037	C6orf32
+A0A024R094	MIF4G domain-containing protein	Homo sapiens	unreviewed	9606	306	35..205	PAIP1
+A0A024R0J5	AP complex subunit beta	Homo sapiens	unreviewed	9606	739	8..572	
+A0A024R0R6	Symplekin, isoform CRA_a	Homo sapiens	unreviewed	9606	1274	5..766	SYMPK
+A0A024R169	Pre-rRNA-processing protein Ipi1 N-terminal domain-containing protein	Homo sapiens	unreviewed	9606	929	51..533	TEX10
+A0A024R179	MIF4G domain-containing protein	Homo sapiens	unreviewed	9606	790	28..290,291..479,481..790	NCBP1
+A0A024R1X8	Junction plakoglobin, isoform CRA_a	Homo sapiens	unreviewed	9606	745	126..654	JUP
+A0A024R259	MIF4G domain-containing protein	Homo sapiens	unreviewed	9606	598	368..580	KIAA0427
+A0A024R288	tubulin-glutamate carboxypeptidase	Homo sapiens	unreviewed	9606	1186	38..300	AGTPBP1
+A0A024R2B0	KIAA1468, isoform CRA_b	Homo sapiens	unreviewed	9606	894	183..799	KIAA1468
+A0A024R2B7	Maestro, isoform CRA_a	Homo sapiens	unreviewed	9606	248	24..210	MRO
+A0A024R2J1	TOG domain-containing protein	Homo sapiens	unreviewed	9606	502	87..305	CLASP2
+A0A024R2Q3	Catenin (Cadherin-associated protein), beta 1, 88kDa, isoform CRA_a	Homo sapiens	unreviewed	9606	781	135..664	CTNNB1
+A0A024R2S6	TOG domain-containing protein	Homo sapiens	unreviewed	9606	735	7..542	CLASP2
+A0A024R3C7	Serine-protein kinase ATM	Homo sapiens	unreviewed	9606	3056	256..2496	ATM
+A0A024R3R7	HEAT repeat-containing protein 1	Homo sapiens	unreviewed	9606	2036	774..2019	HEATR1
+A0A024R486	LisH domain-containing protein ARMC9	Homo sapiens	unreviewed	9606	665	375..548	ARMC9
+A0A024R496	Calcium binding protein 39, isoform CRA_a	Homo sapiens	unreviewed	9606	341	10..338	CAB39
+A0A024R4R7	Nucleotide exchange factor Fes1 domain-containing protein	Homo sapiens	unreviewed	9606	216	93..216	HSPBP1
+A0A024R4Y7	Catenin (Cadherin-associated protein), delta 1, isoform CRA_e	Homo sapiens	unreviewed	9606	618	44..509	CTNND1

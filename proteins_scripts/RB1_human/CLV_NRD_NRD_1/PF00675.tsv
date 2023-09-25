@@ -1,0 +1,21 @@
+accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
+A0A087WVZ4	Peptidase M16 N-terminal domain-containing protein	Homo sapiens	unreviewed	9606	70	2..52	UQCRC2
+A0A3B3ISG5	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	1019	74..212	IDE
+A0A7I2V2P6	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	978	33..171	IDE
+A0A7I2V2S1	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	872	74..212	IDE
+A0A7I2V373	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	633	74..212	IDE
+A0A7I2V397	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	971	96..177	PITRM1
+A0A7I2V3B6	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	926	96..177	PITRM1
+A0A7I2V3E3	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	972	74..212	IDE
+A0A7I2V3X0	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	777	96..177	PITRM1
+A0A7I2V449	Pitrilysin metallopeptidase 1	Homo sapiens	unreviewed	9606	308	96..177	PITRM1
+A0A7I2V4A4	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	447	74..212	IDE
+A0A7I2V4Q3	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	928	74..212	IDE
+A0A7I2V5C6	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	992	96..177	PITRM1
+A0A7I2V5H2	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	995	96..177	PITRM1
+A0A7I2V5R2	Pitrilysin metalloproteinase 1	Homo sapiens	unreviewed	9606	551	96..177	PITRM1
+A0A7I2V610	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	961	74..212	IDE
+A0A7I2V612	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	609	74..212	IDE
+A0A7I2V634	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	384	74..212	IDE
+A0A7I2YQS6	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	582	74..212	IDE
+A0A7I2YQV5	Insulin degrading enzyme	Homo sapiens	unreviewed	9606	998	74..212	IDE
