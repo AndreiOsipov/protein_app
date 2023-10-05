@@ -1,7 +1,0 @@
-accession id	name	scientific name	source database	taxId	length	entry protein locations	gene names
-D3DV79	Cyclin-dependent kinases regulatory subunit	Homo sapiens	unreviewed	9606	57	1..50	CKS1B
-P33552	Cyclin-dependent kinases regulatory subunit 2	Homo sapiens	reviewed	9606	79	6..72	CKS2
-P61024	Cyclin-dependent kinases regulatory subunit 1	Homo sapiens	reviewed	9606	79	6..72	CKS1B
-Q5T178	Cyclin-dependent kinases regulatory subunit	Homo sapiens	unreviewed	9606	79	6..72	CKS1B
-Q5T179	Cyclin-dependent kinases regulatory subunit	Homo sapiens	unreviewed	9606	67	6..62	CKS1B
-Q9BZU3	Cyclin-dependent kinases regulatory subunit	Homo sapiens	unreviewed	9606	63	4..56	CKS1B
