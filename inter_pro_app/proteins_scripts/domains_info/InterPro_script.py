@@ -1,12 +1,10 @@
-# standard library modules
-import json, ssl
-# from urllib import request
-# from urllib.error import HTTPError
+import ssl
 import requests
 from time import sleep
 import time
 from dataclasses import dataclass
 import logging
+from inter_pro_app.loggers.loggers import LoggerGetter
 
 RESOURCES = [
   'pfam',
@@ -108,12 +106,15 @@ class InterProConnect:
           return None, None
         
   def _get_domain_json_answer(self, urls):
+      '''
+      - перебирает возможные url для подключения к interPro по домайну
+      '''
       for url in urls:
         print(f'url = {url} in the {len(urls)} urls')
         code, domain_info_dict = self._get_page_answer(url)
         if code == 200:
           print('code == OK!')
-          return domain_info_dict
+          return domain_info_dict, url
         else:
           print('not OK')
         
@@ -139,16 +140,17 @@ class InterProConnect:
   def __init__(self, domain_name: str, test = False) -> None:
     #TODO залогировать exception
     self.test = test
-    self.context = ssl._create_unverified_context()
+    self.logger = LoggerGetter().get_logger('inter_rpo_script', logging.INFO)
+
+    # self.context = ssl._create_unverified_context()
     self.domain_name = domain_name
     self.url_postfix = '/taxonomy/uniprot/9606/?page_size=100'
     urls = list(map(self._build_full_url, RESOURCES))
-    self.logger = logging.getLogger(__name__)
-
     try:
-      self.proteins_answer = self._get_domain_json_answer(urls)
+      self.proteins_answer, connected_url = self._get_domain_json_answer(urls)
       self.proteins_count = self.proteins_answer["count"] 
       self.next_url = self.proteins_answer["next"]
+      self.logger.info(msg=f'connection to {connected_url} it has {self.proteins_count} proteins records')
     except:
       raise Exception(f"wrong domain: {self.domain_name}")
 
@@ -165,9 +167,3 @@ class InterProConnect:
         yield self._build_proteins_list()
         if self.next_url:
           sleep(1)
-
-if __name__ == "__main__":
-  page_connect = InterProConnect('SM00028')
-  for lst in page_connect.output_list():
-    print(lst)
-    
