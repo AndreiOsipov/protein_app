@@ -16,21 +16,6 @@ class FinishUrlGetter:
         path_to_json_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'urls.json')
         with open(path_to_json_file) as file:
             self.urls = json.load(file)
-        
-    # def _build_finish_url(self, soup: BeautifulSoup):
-    #     url_tags = soup.find_all(attrs={
-    #         'content':lambda content: not(content is None) and 'URL=' in content 
-    #     })
-    #     url_tag = url_tags[0]
-    #     url_mata_txt:str = url_tag['content']
-    #     url_from_meta = url_mata_txt[url_mata_txt.index('URL=')+4:]
-    #     return f'http://elm.eu.org/{url_from_meta}'
-
-    # def get_finish_url_from_medium_url(self, medium_url):
-    #     res = requests.get(medium_url)
-    #     soup = BeautifulSoup(res.text, 'html.parser')
-    #     finish_url = self._build_finish_url(soup)
-    #     return finish_url
     
 class ProteinsElmNameGetter:
     '''
@@ -50,8 +35,8 @@ class ProteinsElmNameGetter:
                 return tables[3]
             else:
                 raise Exception(msg='no h2 with right txt')
-            
-        return tables[0]
+        print(f'всего таблиц {len(tables)}')
+        return tables[-1]
 
 
     def _get_proteins_ids(self, table:Tag):
@@ -87,7 +72,6 @@ def get_elm_ids_by_squence_id(sequence_id: str):
     finish_url_getter = FinishUrlGetter()
     proteins_getter = ProteinsElmNameGetter()
 
-    # finish_url = finish_url_getter.get_finish_url_from_medium_url(f'{BASE_URL_BEGIN}{sequence_id}')
     finish_url = finish_url_getter.urls[sequence_id]
     logger.info(msg=f'for {sequence_id} sequence finish url was setted {finish_url}')
     return proteins_getter.get_elm_ids_from_elm_page(finish_url)

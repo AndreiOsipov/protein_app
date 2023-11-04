@@ -1,3 +1,6 @@
 {
-    "RB1_human": "http://elm.eu.org/cgimodel.py?fun=smartResult&userId=QiKPcjPbZP&EXPECT_CUTOFF=100&r=1&bg=on"
+    "RB1_human": "http://elm.eu.org/cgimodel.py?fun=smartResult&userId=QiKPagQp89&EXPECT_CUTOFF=100&r=1&bg=on",
+    "KMT5C_HUMAN":"http://elm.eu.org/cgimodel.py?fun=smartResult&userId=QiKPagRjF9&EXPECT_CUTOFF=100&r=1&bg=on",
+    "UBP7_HUMAN":"http://elm.eu.org/cgimodel.py?fun=smartResult&userId=QiKPagRRNZ&EXPECT_CUTOFF=100&r=1&bg=on",
+    "CLH1_HUMAN":"http://elm.eu.org/cgimodel.py?fun=smartResult&userId=QiKPagRLvH&EXPECT_CUTOFF=100&r=1&bg=on"
 }

@@ -1,33 +1,249 @@
-2023-10-11 12:34:49,573 INFO 67 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_C14_Caspase3-7\PF00656.tsv file
-2023-10-11 12:36:04,464 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 12:36:04,464 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 12:48:29,374 INFO 67 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_C14_Caspase3-7\PF00656.tsv file
-2023-10-11 12:49:06,580 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 12:49:06,580 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 12:49:44,539 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 12:49:44,539 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 12:49:44,539 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 12:53:01,951 INFO 67 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_C14_Caspase3-7\PF00656.tsv file
-2023-10-11 12:53:46,176 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 12:53:46,176 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 13:00:40,951 INFO 67 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_C14_Caspase3-7\PF00656.tsv file
-2023-10-11 13:01:21,230 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 13:01:21,230 INFO 72 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
-2023-10-11 13:01:55,419 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 13:01:55,419 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 13:01:55,419 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
-2023-10-11 13:02:23,473 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_PC1ET2_1\PF00082.tsv file
-2023-10-11 13:02:23,473 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_PC1ET2_1\PF00082.tsv file
-2023-10-11 13:02:23,473 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_PC1ET2_1\PF00082.tsv file
-2023-10-11 13:02:23,473 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_PC1ET2_1\PF00082.tsv file
-2023-10-11 13:02:54,785 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
-2023-10-11 13:02:54,785 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
-2023-10-11 13:02:54,785 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
-2023-10-11 13:02:54,785 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
-2023-10-11 13:02:54,785 INFO 61 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
-2023-10-11 13:03:04,795 INFO 3 proteins was downloaded and write to C:/Users/andre/OneDrive/Desktop/interProScript/inter_pro_app\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
+2023-10-13 15:22:43,844 INFO PF00656 domain: 67 from 67 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_C14_Caspase3-7\PF00656.tsv file
+2023-10-13 15:22:43,845 INFO CLV_C14_Caspase3-7 proteins was downloaded it is 1 in 73 elms
+2023-10-13 15:23:36,231 INFO PF00675 domain: 72 from 72 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_NRD_NRD_1\PF00675.tsv file
+2023-10-13 15:23:36,231 INFO CLV_NRD_NRD_1 proteins was downloaded it is 2 in 73 elms
+2023-10-13 15:24:43,833 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_PCSK_KEX2_1\PF00082.tsv file
+2023-10-13 15:24:43,835 INFO CLV_PCSK_KEX2_1 protein was downloaded it is 3 in 73 elms
+2023-10-13 15:25:07,136 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_PCSK_PC1ET2_1\PF00082.tsv file
+2023-10-13 15:25:07,136 INFO CLV_PCSK_PC1ET2_1 proteins was downloaded it is 4 in 73 elms
+2023-10-13 15:25:30,602 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_PCSK_SKI1_1\PF00082.tsv file
+2023-10-13 15:25:30,602 INFO CLV_PCSK_SKI1_1 proteins was downloaded it is 5 in 73 elms
+2023-10-13 15:25:41,974 INFO PF03568 domain: 3 from 3 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\CLV_Separin_Metazoa\PF03568.tsv file
+2023-10-13 15:25:41,974 INFO CLV_Separin_Metazoa proteins was downloaded it is 6 in 73 elms
+2023-10-13 15:39:26,521 INFO PF00400 domain: 1225 from 1225 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DEG_SCF_FBW7_1\PF00400.tsv file
+2023-10-13 15:39:26,521 INFO DEG_SCF_FBW7_1 proteins was downloaded it is 7 in 73 elms
+2023-10-13 20:02:51,047 INFO PF00400 domain: 1225 from 1225 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DEG_SCF_TRCP1_1\PF00400.tsv file
+2023-10-13 20:02:51,049 INFO DEG_SCF_TRCP1_1 protein was downloaded it is 8 in 73 elms
+2023-10-13 20:03:04,118 INFO PF01111 domain: 6 from 6 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_CKS1_1\PF01111.tsv file
+2023-10-13 20:03:04,118 INFO DOC_CKS1_1 proteins was downloaded it is 9 in 73 elms
+2023-10-13 20:04:32,350 INFO PF00134 domain: 136 from 136 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_CYCLIN_RxL_1\PF00134.tsv file
+2023-10-13 20:04:32,350 INFO DOC_CYCLIN_RxL_1 proteins was downloaded it is 10 in 73 elms
+2023-10-13 20:05:28,028 INFO PF00134 domain: 136 from 136 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_CYCLIN_yCln2_LP_2\PF00134.tsv file
+2023-10-13 20:05:28,029 INFO DOC_CYCLIN_yCln2_LP_2 proteins was downloaded it is 11 in 73 elms
+2023-10-13 20:25:10,428 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_MAPK_gen_1\PF00069.tsv file
+2023-10-13 20:25:10,428 INFO DOC_MAPK_gen_1 proteins was downloaded it is 12 in 73 elms
+2023-10-13 20:37:59,006 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_MAPK_MEF2A_6\PF00069.tsv file
+2023-10-13 20:37:59,007 INFO DOC_MAPK_MEF2A_6 proteins was downloaded it is 13 in 73 elms
+2023-10-13 20:39:35,211 INFO PF00149 domain: 154 from 154 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_PP1_RVXF_1\PF00149.tsv file
+2023-10-13 20:39:35,212 INFO DOC_PP1_RVXF_1 proteins was downloaded it is 14 in 73 elms
+2023-10-13 20:58:57,201 INFO IPR016024 domain: 1879 from 1879 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_PP2A_B56_1\IPR016024.tsv file
+2023-10-13 20:58:57,201 INFO DOC_PP2A_B56_1 proteins was downloaded it is 15 in 73 elms
+2023-10-13 21:00:06,304 INFO PF00149 domain: 154 from 154 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_PP2B_LxvP_1\PF00149.tsv file
+2023-10-13 21:03:52,927 INFO PF13499 domain: 342 from 342 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_PP2B_LxvP_1\PF13499.tsv file
+2023-10-13 21:03:52,927 INFO DOC_PP2B_LxvP_1 proteins was downloaded it is 16 in 73 elms
+2023-10-13 21:04:20,777 INFO PF00917 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_USP7_MATH_1\PF00917.tsv file
+2023-10-13 21:04:20,777 INFO DOC_USP7_MATH_1 proteins was downloaded it is 17 in 73 elms
+2023-10-13 21:04:28,185 INFO PF12436 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_USP7_UBL2_3\PF12436.tsv file
+2023-10-13 21:04:28,185 INFO DOC_USP7_UBL2_3 proteins was downloaded it is 18 in 73 elms
+2023-10-13 21:08:04,488 INFO PF00397 domain: 231 from 231 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\DOC_WW_Pin1_4\PF00397.tsv file
+2023-10-13 21:08:04,488 INFO DOC_WW_Pin1_4 proteins was downloaded it is 19 in 73 elms
+2023-10-13 21:08:40,213 INFO PF00244 domain: 49 from 49 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_14-3-3_CanoR_1\PF00244.tsv file
+2023-10-13 21:08:40,213 INFO LIG_14-3-3_CanoR_1 proteins was downloaded it is 20 in 73 elms
+2023-10-13 21:11:14,805 INFO PF00022 domain: 236 from 236 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_Actin_WH2_2\PF00022.tsv file
+2023-10-13 21:11:14,805 INFO LIG_Actin_WH2_2 proteins was downloaded it is 21 in 73 elms
+2023-10-13 21:11:19,205 INFO IPR040814 domain: 1 from 1 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_Arc_Nlobe_1\IPR040814.tsv file
+2023-10-13 21:11:19,205 INFO LIG_Arc_Nlobe_1 proteins was downloaded it is 22 in 73 elms
+2023-10-13 21:12:28,527 INFO PF00533 domain: 99 from 99 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_BRCT_BRCA1_1\PF00533.tsv file
+2023-10-13 21:12:28,528 INFO LIG_BRCT_BRCA1_1 proteins was downloaded it is 23 in 73 elms
+2023-10-13 21:12:43,558 INFO PF01394 domain: 16 from 16 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_Clathr_ClatBox_1\PF01394.tsv file
+2023-10-13 21:12:43,558 INFO LIG_Clathr_ClatBox_1 proteins was downloaded it is 24 in 73 elms
+2023-10-13 21:13:36,769 INFO PF00928 domain: 76 from 76 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_deltaCOP1_diTrp_1\PF00928.tsv file
+2023-10-13 21:13:36,770 INFO LIG_deltaCOP1_diTrp_1 proteins was downloaded it is 25 in 73 elms
+2023-10-13 21:15:46,215 INFO PF00498 domain: 173 from 173 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_FHA_1\PF00498.tsv file
+2023-10-13 21:15:46,216 INFO LIG_FHA_1 proteins was downloaded it is 26 in 73 elms
+2023-10-13 21:17:06,580 INFO PF00498 domain: 173 from 173 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_FHA_2\PF00498.tsv file
+2023-10-13 21:17:06,584 INFO LIG_FHA_2 proteins was downloaded it is 27 in 73 elms
+2023-10-13 21:26:08,959 INFO SM00028 domain: 815 from 815 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_KLC1_WD_1\SM00028.tsv file
+2023-10-13 21:26:08,960 INFO LIG_KLC1_WD_1 proteins was downloaded it is 28 in 73 elms
+2023-10-13 21:27:34,656 INFO PF02991 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_LIR_Apic_2\PF02991.tsv file
+2023-10-13 21:27:34,657 INFO LIG_LIR_Apic_2 proteins was downloaded it is 29 in 73 elms
+2023-10-13 21:27:45,985 INFO PF02991 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_LIR_Gen_1\PF02991.tsv file
+2023-10-13 21:27:45,986 INFO LIG_LIR_Gen_1 proteins was downloaded it is 30 in 73 elms
+2023-10-13 21:27:57,568 INFO PF02991 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_LIR_Nem_3\PF02991.tsv file
+2023-10-13 21:27:57,568 INFO LIG_LIR_Nem_3 proteins was downloaded it is 31 in 73 elms
+2023-10-13 21:28:55,974 INFO PF01753 domain: 85 from 85 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_MYND_1\PF01753.tsv file
+2023-10-13 21:28:55,975 INFO LIG_MYND_1 proteins was downloaded it is 32 in 73 elms
+2023-10-13 21:29:11,976 INFO PF00235 domain: 16 from 16 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_PROFILIN_1\PF00235.tsv file
+2023-10-13 21:29:11,976 INFO LIG_PROFILIN_1 proteins was downloaded it is 33 in 73 elms
+2023-10-13 21:30:46,676 INFO PF00640 domain: 152 from 152 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_PTB_Apo_2\PF00640.tsv file
+2023-10-13 21:31:19,700 INFO PF02174 domain: 44 from 44 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_PTB_Apo_2\PF02174.tsv file
+2023-10-13 21:31:19,700 INFO LIG_PTB_Apo_2 proteins was downloaded it is 34 in 73 elms
+2023-10-13 21:36:49,030 INFO PF00017 domain: 536 from 536 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH2_SRC\PF00017.tsv file
+2023-10-13 21:36:49,030 INFO LIG_SH2_SRC proteins was downloaded it is 35 in 73 elms
+2023-10-13 21:40:32,455 INFO PF00017 domain: 536 from 536 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH2_STAP1\PF00017.tsv file
+2023-10-13 21:40:32,455 INFO LIG_SH2_STAP1 proteins was downloaded it is 36 in 73 elms
+2023-10-13 21:44:02,771 INFO PF00017 domain: 536 from 536 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH2_STAT5\PF00017.tsv file
+2023-10-13 21:44:02,771 INFO LIG_SH2_STAT5 proteins was downloaded it is 37 in 73 elms
+2023-10-13 21:47:01,208 INFO PF07653 domain: 283 from 283 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH3_2\PF07653.tsv file
+2023-10-13 21:53:06,511 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH3_2\PF00018.tsv file
+2023-10-13 21:56:01,027 INFO PF14604 domain: 290 from 290 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH3_2\PF14604.tsv file
+2023-10-13 21:56:01,027 INFO LIG_SH3_2 proteins was downloaded it is 38 in 73 elms
+2023-10-13 22:01:27,669 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH3_3\PF00018.tsv file
+2023-10-13 22:01:27,669 INFO LIG_SH3_3 proteins was downloaded it is 39 in 73 elms
+2023-10-13 22:05:57,787 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SH3_4\PF00018.tsv file
+2023-10-13 22:05:57,787 INFO LIG_SH3_4 proteins was downloaded it is 40 in 73 elms
+2023-10-13 22:06:19,504 INFO PF11976 domain: 19 from 19 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SUMO_SIM_par_1\PF11976.tsv file
+2023-10-13 22:06:19,505 INFO LIG_SUMO_SIM_par_1 proteins was downloaded it is 41 in 73 elms
+2023-10-13 22:06:30,408 INFO PF03271 domain: 6 from 6 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_SxIP_EBH_1\PF03271.tsv file
+2023-10-13 22:06:30,408 INFO LIG_SxIP_EBH_1 proteins was downloaded it is 42 in 73 elms
+2023-10-13 22:06:38,021 INFO IPR037304 domain: 3 from 3 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF2like_MATH_shPxQ_1\IPR037304.tsv file
+2023-10-13 22:06:44,661 INFO IPR037305 domain: 4 from 4 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF2like_MATH_shPxQ_1\IPR037305.tsv file
+2023-10-13 22:06:56,449 INFO PF00917 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF2like_MATH_shPxQ_1\PF00917.tsv file
+2023-10-13 22:07:00,632 INFO IPR037306 domain: 1 from 1 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF2like_MATH_shPxQ_1\IPR037306.tsv file
+2023-10-13 22:07:00,633 INFO LIG_TRAF2like_MATH_shPxQ_1 proteins was downloaded it is 43 in 73 elms
+2023-10-13 22:07:05,189 INFO IPR037309 domain: 1 from 1 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF6_MATH_1\IPR037309.tsv file
+2023-10-13 22:07:17,119 INFO PF00917 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_TRAF6_MATH_1\PF00917.tsv file
+2023-10-13 22:07:17,119 INFO LIG_TRAF6_MATH_1 proteins was downloaded it is 44 in 73 elms
+2023-10-13 22:07:59,742 INFO PF00899 domain: 59 from 59 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_UBA3_1\PF00899.tsv file
+2023-10-13 22:07:59,742 INFO LIG_UBA3_1 proteins was downloaded it is 45 in 73 elms
+2023-10-22 02:14:46,779 INFO LIG_WD40_WDR5_VDV_2 protein was downloaded it is 46 in 73 elms
+2023-10-22 02:15:34,760 INFO PF07815 domain: 18 from 18 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_WRC_WIRS_1\PF07815.tsv file
+2023-10-22 02:16:01,035 INFO PF05994 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\LIG_WRC_WIRS_1\PF05994.tsv file
+2023-10-22 02:16:01,035 INFO LIG_WRC_WIRS_1 proteins was downloaded it is 47 in 73 elms
+2023-10-22 02:17:51,348 INFO PF00782 domain: 117 from 117 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_CDC14_SPxK_1\PF00782.tsv file
+2023-10-22 02:17:51,349 INFO MOD_CDC14_SPxK_1 proteins was downloaded it is 48 in 73 elms
+2023-10-23 01:30:23,914 INFO MOD_CDK_SPK_2 protein was downloaded it is 49 in 73 elms
+2023-10-23 01:33:12,181 INFO MOD_CDK_SPxK_1 proteins was downloaded it is 50 in 73 elms
+2023-10-23 01:36:01,148 INFO MOD_CDK_SPxxK_3 proteins was downloaded it is 51 in 73 elms
+2023-10-23 01:38:52,829 INFO MOD_CK1_1 proteins was downloaded it is 52 in 73 elms
+2023-10-23 01:41:39,224 INFO MOD_CK2_1 proteins was downloaded it is 53 in 73 elms
+2023-10-23 01:43:31,990 INFO PF00535 domain: 104 from 104 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_CMANNOS\PF00535.tsv file
+2023-10-23 01:43:31,990 INFO MOD_CMANNOS proteins was downloaded it is 54 in 73 elms
+2023-10-23 01:44:06,507 INFO PF01048 domain: 30 from 30 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_GlcNHglycan\PF01048.tsv file
+2023-10-23 01:44:26,950 INFO PF02485 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_GlcNHglycan\PF02485.tsv file
+2023-10-23 01:44:26,951 INFO MOD_GlcNHglycan proteins was downloaded it is 55 in 73 elms
+2023-10-23 01:47:16,375 INFO MOD_GSK3_1 proteins was downloaded it is 56 in 73 elms
+2023-10-23 01:47:32,248 INFO PF02516 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_N-GLC_1\PF02516.tsv file
+2023-10-23 01:47:32,248 INFO MOD_N-GLC_1 proteins was downloaded it is 57 in 73 elms
+2023-10-23 01:47:36,414 INFO PF02516 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_N-GLC_2\PF02516.tsv file
+2023-10-23 01:47:36,415 INFO MOD_N-GLC_2 proteins was downloaded it is 58 in 73 elms
+2023-10-23 01:49:15,511 INFO PF00454 domain: 96 from 96 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\MOD_PIKK_1\PF00454.tsv file
+2023-10-23 01:49:15,515 INFO MOD_PIKK_1 proteins was downloaded it is 59 in 73 elms
+2023-10-23 01:53:59,575 INFO MOD_PK_1 proteins was downloaded it is 60 in 73 elms
+2023-10-23 01:56:36,279 INFO MOD_PKA_1 proteins was downloaded it is 61 in 73 elms
+2023-10-23 01:59:13,331 INFO MOD_PKA_2 proteins was downloaded it is 62 in 73 elms
+2023-10-23 02:01:52,811 INFO MOD_Plk_1 proteins was downloaded it is 63 in 73 elms
+2023-10-23 02:04:29,632 INFO MOD_ProDKin_1 proteins was downloaded it is 64 in 73 elms
+2023-10-23 02:05:36,178 INFO MOD_SUMO_for_1 proteins was downloaded it is 65 in 73 elms
+2023-10-23 02:05:42,179 INFO MOD_SUMO_rev_2 proteins was downloaded it is 66 in 73 elms
+2023-10-23 02:07:18,440 INFO PF01217 domain: 116 from 116 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_DiLeu_BaEn_3\PF01217.tsv file
+2023-10-23 02:07:18,441 INFO TRG_DiLeu_BaEn_3 proteins was downloaded it is 67 in 73 elms
+2023-10-23 02:08:24,012 INFO PF00928 domain: 76 from 76 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_ENDOCYTIC_2\PF00928.tsv file
+2023-10-23 02:08:24,012 INFO TRG_ENDOCYTIC_2 proteins was downloaded it is 68 in 73 elms
+2023-10-23 02:09:31,641 INFO TRG_ER_diArg_1 proteins was downloaded it is 69 in 73 elms
+2023-10-23 02:12:50,436 INFO PF00514 domain: 165 from 165 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_NLS_Bipartite_1\PF00514.tsv file
+2023-10-23 02:12:50,437 INFO TRG_NLS_Bipartite_1 proteins was downloaded it is 70 in 73 elms
+2023-10-23 02:13:51,533 INFO PF00514 domain: 165 from 165 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_NLS_MonoExtC_3\PF00514.tsv file
+2023-10-23 02:13:51,534 INFO TRG_NLS_MonoExtC_3 proteins was downloaded it is 71 in 73 elms
+2023-10-23 02:14:51,329 INFO PF00514 domain: 165 from 165 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_NLS_MonoExtN_4\PF00514.tsv file
+2023-10-23 02:14:51,330 INFO TRG_NLS_MonoExtN_4 proteins was downloaded it is 72 in 73 elms
+2023-10-23 02:15:59,643 INFO PF00026 domain: 65 from 65 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\RB1_human\TRG_Pf-PMV_PEXEL_1\PF00026.tsv file
+2023-10-23 02:15:59,644 INFO TRG_Pf-PMV_PEXEL_1 proteins was downloaded it is 73 in 73 elms
+2023-11-03 23:06:36,000 INFO PF00675 domain: 72 from 72 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_NRD_NRD_1\PF00675.tsv file
+2023-11-03 23:06:36,002 INFO CLV_NRD_NRD_1 proteins was downloaded it is 1 in 59 elms
+2023-11-03 23:07:23,927 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_PCSK_FUR_1\PF00082.tsv file
+2023-11-03 23:07:23,927 INFO CLV_PCSK_FUR_1 proteins was downloaded it is 2 in 59 elms
+2023-11-03 23:07:47,180 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_PCSK_KEX2_1\PF00082.tsv file
+2023-11-03 23:07:47,182 INFO CLV_PCSK_KEX2_1 proteins was downloaded it is 3 in 59 elms
+2023-11-03 23:08:10,701 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_PCSK_PC1ET2_1\PF00082.tsv file
+2023-11-03 23:08:10,702 INFO CLV_PCSK_PC1ET2_1 proteins was downloaded it is 4 in 59 elms
+2023-11-03 23:08:34,859 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_PCSK_PC7_1\PF00082.tsv file
+2023-11-03 23:08:34,860 INFO CLV_PCSK_PC7_1 proteins was downloaded it is 5 in 59 elms
+2023-11-03 23:08:58,559 INFO PF00082 domain: 61 from 61 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\CLV_PCSK_SKI1_1\PF00082.tsv file
+2023-11-03 23:08:58,559 INFO CLV_PCSK_SKI1_1 proteins was downloaded it is 6 in 59 elms
+2023-11-03 23:28:49,077 INFO IPR015943 domain: 1965 from 1965 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DEG_APCC_DBOX_1\IPR015943.tsv file
+2023-11-03 23:38:52,677 INFO PF00400 domain: 1225 from 1225 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DEG_APCC_DBOX_1\PF00400.tsv file
+2023-11-03 23:38:52,677 INFO DEG_APCC_DBOX_1 proteins was downloaded it is 7 in 59 elms
+2023-11-03 23:39:02,585 INFO PF03145 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DEG_SIAH_1\PF03145.tsv file
+2023-11-03 23:39:02,585 INFO DEG_SIAH_1 proteins was downloaded it is 8 in 59 elms
+2023-11-03 23:39:10,792 INFO PF01111 domain: 6 from 6 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_CKS1_1\PF01111.tsv file
+2023-11-03 23:39:10,792 INFO DOC_CKS1_1 proteins was downloaded it is 9 in 59 elms
+2023-11-03 23:40:37,895 INFO PF00134 domain: 136 from 136 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_CYCLIN_RxL_1\PF00134.tsv file
+2023-11-03 23:40:37,896 INFO DOC_CYCLIN_RxL_1 proteins was downloaded it is 10 in 59 elms
+2023-11-03 23:59:30,745 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_MAPK_gen_1\PF00069.tsv file
+2023-11-03 23:59:30,746 INFO DOC_MAPK_gen_1 proteins was downloaded it is 11 in 59 elms
+2023-11-04 00:11:45,436 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_MAPK_RevD_3\PF00069.tsv file
+2023-11-04 00:11:45,436 INFO DOC_MAPK_RevD_3 proteins was downloaded it is 12 in 59 elms
+2023-11-04 00:13:21,540 INFO PF00149 domain: 154 from 154 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_PP2B_PxIxIT_1\PF00149.tsv file
+2023-11-04 00:14:45,484 INFO IPR004843 domain: 154 from 154 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_PP2B_PxIxIT_1\IPR004843.tsv file
+2023-11-04 00:14:45,488 INFO DOC_PP2B_PxIxIT_1 proteins was downloaded it is 13 in 59 elms
+2023-11-04 00:15:24,442 INFO PF00568 domain: 58 from 58 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_PP4_FxxP_1\PF00568.tsv file
+2023-11-04 00:15:24,442 INFO DOC_PP4_FxxP_1 proteins was downloaded it is 14 in 59 elms
+2023-11-04 00:15:41,372 INFO PF00917 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_USP7_MATH_1\PF00917.tsv file
+2023-11-04 00:15:41,373 INFO DOC_USP7_MATH_1 proteins was downloaded it is 15 in 59 elms
+2023-11-04 00:18:05,753 INFO PF00397 domain: 231 from 231 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\DOC_WW_Pin1_4\PF00397.tsv file
+2023-11-04 00:18:05,754 INFO DOC_WW_Pin1_4 proteins was downloaded it is 16 in 59 elms
+2023-11-04 00:18:35,799 INFO PF00244 domain: 49 from 49 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_14-3-3_CanoR_1\PF00244.tsv file
+2023-11-04 00:18:35,799 INFO LIG_14-3-3_CanoR_1 proteins was downloaded it is 17 in 59 elms
+2023-11-04 00:18:47,098 INFO PF02296 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_AP2alpha_2\PF02296.tsv file
+2023-11-04 00:18:47,098 INFO LIG_AP2alpha_2 proteins was downloaded it is 18 in 59 elms
+2023-11-04 00:19:31,393 INFO PF00928 domain: 76 from 76 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_deltaCOP1_diTrp_1\PF00928.tsv file
+2023-11-04 00:19:31,397 INFO LIG_deltaCOP1_diTrp_1 proteins was downloaded it is 19 in 59 elms
+2023-11-04 00:21:16,268 INFO PF00498 domain: 173 from 173 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_FHA_1\PF00498.tsv file
+2023-11-04 00:21:16,269 INFO LIG_FHA_1 proteins was downloaded it is 20 in 59 elms
+2023-11-04 00:23:27,889 INFO PF00498 domain: 173 from 173 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_FHA_2\PF00498.tsv file
+2023-11-04 00:23:27,890 INFO LIG_FHA_2 proteins was downloaded it is 21 in 59 elms
+2023-11-04 00:23:45,457 INFO PF02991 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_LIR_Nem_3\PF02991.tsv file
+2023-11-04 00:23:45,458 INFO LIG_LIR_Nem_3 proteins was downloaded it is 22 in 59 elms
+2023-11-04 00:24:39,926 INFO PF01753 domain: 85 from 85 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_MYND_1\PF01753.tsv file
+2023-11-04 00:24:39,926 INFO LIG_MYND_1 proteins was downloaded it is 23 in 59 elms
+2023-11-04 00:24:44,027 INFO PF02747 domain: 3 from 3 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_PCNA_TLS_4\PF02747.tsv file
+2023-11-04 00:24:44,027 INFO LIG_PCNA_TLS_4 proteins was downloaded it is 24 in 59 elms
+2023-11-04 00:31:39,918 INFO PF00595 domain: 710 from 710 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_PDZ_Class_3\PF00595.tsv file
+2023-11-04 00:31:39,919 INFO LIG_PDZ_Class_3 proteins was downloaded it is 25 in 59 elms
+2023-11-04 00:31:44,543 INFO PF04695 domain: 2 from 2 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_Pex14_1\PF04695.tsv file
+2023-11-04 00:37:44,498 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_Pex14_1\PF00018.tsv file
+2023-11-04 00:37:44,498 INFO LIG_Pex14_1 proteins was downloaded it is 26 in 59 elms
+2023-11-04 00:42:54,498 INFO PF00017 domain: 536 from 536 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH2_CRK\PF00017.tsv file
+2023-11-04 00:42:54,498 INFO LIG_SH2_CRK proteins was downloaded it is 27 in 59 elms
+2023-11-04 00:46:16,565 INFO PF00017 domain: 536 from 536 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH2_STAT5\PF00017.tsv file
+2023-11-04 00:46:16,565 INFO LIG_SH2_STAT5 proteins was downloaded it is 28 in 59 elms
+2023-11-04 01:30:07,408 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH3_1\PF00018.tsv file
+2023-11-04 01:30:07,408 INFO LIG_SH3_1 proteins was downloaded it is 30 in 59 elms
+2023-11-04 01:33:57,269 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH3_2\PF00018.tsv file
+2023-11-04 01:38:06,475 INFO PF07653 domain: 283 from 283 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH3_2\PF07653.tsv file
+2023-11-04 01:38:06,476 INFO LIG_SH3_2 proteins was downloaded it is 30 in 59 elms
+2023-11-04 01:41:56,190 INFO PF00018 domain: 615 from 615 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_SH3_3\PF00018.tsv file
+2023-11-04 01:41:56,190 INFO LIG_SH3_3 proteins was downloaded it is 31 in 59 elms
+2023-11-04 01:42:01,943 INFO LIG_SH3_CIN85_PxpxPR_1 proteins was downloaded it is 32 in 59 elms
+2023-11-04 01:42:08,369 INFO IPR037306 domain: 1 from 1 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_TRAF2like_MATH_shPxQ_1\IPR037306.tsv file
+2023-11-04 01:42:17,946 INFO PF00917 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_TRAF2like_MATH_shPxQ_1\PF00917.tsv file
+2023-11-04 01:42:24,092 INFO IPR037305 domain: 4 from 4 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_TRAF2like_MATH_shPxQ_1\IPR037305.tsv file
+2023-11-04 01:42:29,029 INFO IPR037304 domain: 3 from 3 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_TRAF2like_MATH_shPxQ_1\IPR037304.tsv file
+2023-11-04 01:42:29,029 INFO LIG_TRAF2like_MATH_shPxQ_1 proteins was downloaded it is 33 in 59 elms
+2023-11-04 01:42:34,930 INFO LIG_WD40_WDR5_VDV_1 proteins was downloaded it is 34 in 59 elms
+2023-11-04 01:42:40,676 INFO LIG_WD40_WDR5_VDV_2 proteins was downloaded it is 35 in 59 elms
+2023-11-04 01:42:56,076 INFO PF07815 domain: 18 from 18 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_WRC_WIRS_1\PF07815.tsv file
+2023-11-04 01:43:14,283 INFO PF05994 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_WRC_WIRS_1\PF05994.tsv file
+2023-11-04 01:43:14,283 INFO LIG_WRC_WIRS_1 proteins was downloaded it is 36 in 59 elms
+2023-11-04 01:44:41,054 INFO PF00397 domain: 231 from 231 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\LIG_WW_3\PF00397.tsv file
+2023-11-04 01:44:41,054 INFO LIG_WW_3 proteins was downloaded it is 37 in 59 elms
+2023-11-04 01:46:07,863 INFO PF00782 domain: 117 from 117 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CDC14_SPxK_1\PF00782.tsv file
+2023-11-04 01:46:07,864 INFO MOD_CDC14_SPxK_1 proteins was downloaded it is 38 in 59 elms
+2023-11-04 02:00:10,899 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CDK_SPxK_1\PF00069.tsv file
+2023-11-04 02:00:10,899 INFO MOD_CDK_SPxK_1 proteins was downloaded it is 39 in 59 elms
+2023-11-04 02:12:22,190 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CDK_SPxxK_3\PF00069.tsv file
+2023-11-04 02:12:22,191 INFO MOD_CDK_SPxxK_3 proteins was downloaded it is 40 in 59 elms
+2023-11-04 02:24:38,240 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CK1_1\PF00069.tsv file
+2023-11-04 02:24:38,240 INFO MOD_CK1_1 proteins was downloaded it is 41 in 59 elms
+2023-11-04 02:45:18,968 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CK2_1\PF00069.tsv file
+2023-11-04 02:45:18,969 INFO MOD_CK2_1 proteins was downloaded it is 43 in 59 elms
+2023-11-04 02:46:44,225 INFO PF00535 domain: 104 from 104 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_CMANNOS\PF00535.tsv file
+2023-11-04 02:46:44,226 INFO MOD_CMANNOS proteins was downloaded it is 43 in 59 elms
+2023-11-04 02:47:08,932 INFO PF01048 domain: 30 from 30 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_GlcNHglycan\PF01048.tsv file
+2023-11-04 02:47:29,127 INFO PF02485 domain: 23 from 23 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_GlcNHglycan\PF02485.tsv file
+2023-11-04 02:47:29,128 INFO MOD_GlcNHglycan proteins was downloaded it is 44 in 59 elms
+2023-11-04 02:59:00,421 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_GSK3_1\PF00069.tsv file
+2023-11-04 02:59:00,421 INFO MOD_GSK3_1 proteins was downloaded it is 45 in 59 elms
+2023-11-04 02:59:21,875 INFO PF02516 domain: 7 from 7 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_N-GLC_1\PF02516.tsv file
+2023-11-04 02:59:21,875 INFO MOD_N-GLC_1 proteins was downloaded it is 46 in 59 elms
+2023-11-04 03:10:58,951 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_NEK2_2\PF00069.tsv file
+2023-11-04 03:10:58,952 INFO MOD_NEK2_2 proteins was downloaded it is 47 in 59 elms
+2023-11-04 03:11:27,126 INFO PF10250 domain: 12 from 12 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_OFUCOSY\PF10250.tsv file
+2023-11-04 03:11:27,126 INFO MOD_OFUCOSY proteins was downloaded it is 48 in 59 elms
+2023-11-04 03:23:01,033 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_PKA_2\PF00069.tsv file
+2023-11-04 03:23:01,033 INFO MOD_PKA_2 proteins was downloaded it is 49 in 59 elms
+2023-11-04 03:34:32,829 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_Plk_4\PF00069.tsv file
+2023-11-04 03:34:32,830 INFO MOD_Plk_4 proteins was downloaded it is 50 in 59 elms
+2023-11-04 03:46:03,373 INFO PF00069 domain: 1864 from 1864 proteins was downloaded and write to c:\Users\andre\OneDrive\Desktop\interProScript\downloaded_sequnce_id_proteins\KMT5C_HUMAN\MOD_ProDKin_1\PF00069.tsv file
+2023-11-04 03:46:03,374 INFO MOD_ProDKin_1 proteins was downloaded it is 51 in 59 elms

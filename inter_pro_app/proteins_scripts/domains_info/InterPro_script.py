@@ -144,14 +144,14 @@ class InterProConnect:
 
     # self.context = ssl._create_unverified_context()
     self.domain_name = domain_name
-    self.url_postfix = '/taxonomy/uniprot/9606/?page_size=100'
+    self.url_postfix = '/taxonomy/uniprot/9606/?page_size=200'
     urls = list(map(self._build_full_url, RESOURCES))
     try:
       self.proteins_answer, connected_url = self._get_domain_json_answer(urls)
       self.proteins_count = self.proteins_answer["count"] 
       self.next_url = self.proteins_answer["next"]
       self.logger.info(msg=f'connection to {connected_url} it has {self.proteins_count} proteins records')
-    except:
+    except:      
       raise Exception(f"wrong domain: {self.domain_name}")
 
   def output_list(self):
@@ -160,10 +160,21 @@ class InterProConnect:
     '''
     yield self._build_proteins_list()
     sleep(1)
+    attemt_number = 0
     if not self.test:
-      while self.next_url:    
-        code, self.proteins_answer = self._get_page_answer(self.next_url)
-        self.next_url = self.proteins_answer["next"]
-        yield self._build_proteins_list()
-        if self.next_url:
-          sleep(1)
+      
+      while self.next_url:
+        try:
+          code, self.proteins_answer = self._get_page_answer(self.next_url)
+          self.next_url = self.proteins_answer["next"]
+          yield self._build_proteins_list()
+          if self.next_url:
+            sleep(1)
+        except:
+          if attemt_number > 3:
+            self.logger.error(msg=f'не т возможности загргрузить next: {self.next_url}')
+            yield
+          print(self.next_url)
+          attemt_number+=1
+          time.sleep(20)
+          
