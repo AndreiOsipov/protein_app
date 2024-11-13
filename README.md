@@ -8,5 +8,6 @@
  "Interaction Domain Name" -- имя домена
 
 |"ELM identifier"|"Interaction Domain Id"|"Interaction Domain Description"|"Interaction Domain Name"|
+|                |                       |                                |                         | 
 
 Скрипт писался для разовой помощи в научной работе, поэтому пока web/desktop версия не планируется
